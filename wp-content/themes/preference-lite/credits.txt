@@ -1,0 +1,20 @@
+========= Credits & Plugins =============
+
+CMS WordPress Platform: http://www.wordpress.org
+Demo website Images: http://www.veer.com
+
+Advanced Text Widget: http://simplerealtytheme.com/plugins/atw-pro/
+Breadcrumb NavXT: http://mtekk.us/code/breadcrumb-navxt/
+Dynamic Widgets: http://www.qurl.nl/dynamic-widgets/
+Simply Exclude: http://www.codehooligans.com/projects/wordpress/simply-exclude/
+
+========= Code Snippets ================
+
+Functions and Code snippets: Twenty Twelve theme by WordPress
+Functions code snippets, the Bootstrap theme: http://wordpress.org/extend/themes/the-bootstrap
+Functions code snippet: http://nixgadgets.vacau.com/archives/134
+Functions code snippet: http://digwp.com
+Functions code snippet: Michal Ochman http://blog.scur.pl/
+
+
+

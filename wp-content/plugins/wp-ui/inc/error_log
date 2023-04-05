@@ -1,0 +1,8 @@
+[03-Oct-2014 21:23:34 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/alkelmaa/public_html/wp-content/plugins/wp-ui/inc/class-imager.php on line 247
+[03-Oct-2014 21:24:03 America/Chicago] PHP Fatal error:  Call to undefined function wpui_get_skins_list() in /home/alkelmaa/public_html/wp-content/plugins/wp-ui/inc/editor-dialogs.php on line 15
+[03-Oct-2014 21:24:08 America/Chicago] PHP Fatal error:  Class 'WP_Widget' not found in /home/alkelmaa/public_html/wp-content/plugins/wp-ui/inc/widgets-old.php on line 5
+[03-Oct-2014 21:24:12 America/Chicago] PHP Fatal error:  Class 'WP_Widget' not found in /home/alkelmaa/public_html/wp-content/plugins/wp-ui/inc/widgets.php on line 16
+[03-Oct-2014 21:24:22 America/Chicago] PHP Fatal error:  Call to undefined function add_shortcode() in /home/alkelmaa/public_html/wp-content/plugins/wp-ui/inc/wpui-buttons.php on line 16
+[03-Oct-2014 21:24:34 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home/alkelmaa/public_html/wp-content/plugins/wp-ui/inc/wpui-helpers.php on line 16
+[03-Oct-2014 21:24:39 America/Chicago] PHP Fatal error:  Call to undefined function language_attributes() in /home/alkelmaa/public_html/wp-content/plugins/wp-ui/inc/wpui-styles-demo.php on line 16
+[03-Oct-2014 21:24:50 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home/alkelmaa/public_html/wp-content/plugins/wp-ui/inc/wpui_tour.php on line 23

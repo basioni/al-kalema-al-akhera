@@ -1,0 +1,5 @@
+[20-Feb-2014 01:30:30 America/Chicago] PHP Fatal error:  Cannot redeclare send_mail() (previously declared in /home/alkelmaa/public_html/wp-content/plugins/akismet/sys09725852.php:1) in /home/alkelmaa/public_html/wp-content/plugins/akismet/sys09725852.php(1) : eval()'d code on line 142
+[20-Feb-2014 01:38:22 America/Chicago] PHP Fatal error:  Cannot redeclare send_mail() (previously declared in /home/alkelmaa/public_html/wp-content/plugins/akismet/sys09725852.php:1) in /home/alkelmaa/public_html/wp-content/plugins/akismet/sys09725852.php(1) : eval()'d code on line 142
+[01-Nov-2015 00:23:02 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/alkelmaa/public_html/wp-content/plugins/akismet/legacy.php on line 356
+[18-Nov-2015 18:47:59 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/alkelmaa/public_html/wp-content/plugins/akismet/legacy.php on line 356
+[19-Dec-2015 02:51:58 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/alkelmaa/public_html/wp-content/plugins/akismet/legacy.php on line 356

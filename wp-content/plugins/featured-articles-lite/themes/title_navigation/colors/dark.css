@@ -1,0 +1,77 @@
+.FA_overall_container_title_nav.dark h3.FA_title_section { 	
+	color:#003333; 
+}
+
+.FA_overall_container_title_nav.dark .FA_featured_articles {
+	background:#EEEEEE;
+}
+
+.FA_overall_container_title_nav.dark .FA_featured_articles .FA_article{
+	color:#CCCCCC;
+}
+
+.FA_overall_container_title_nav.dark .FA_featured_articles .FA_article .image_container{
+	background-color:#eaeaea;
+	border:0px #fff solid;
+	width:100%;
+	height:100%;
+	
+}
+
+.FA_overall_container_title_nav.dark .FA_featured_articles .FA_article h2{
+text-align:right;
+	color:#303030 !important;
+}
+	.FA_featured_articles .FA_article h2 a{
+		color:#fff;
+		padding-right:5px;
+	}	
+	
+.FA_overall_container_title_nav.dark .FA_featured_articles .FA_article span.FA_date{
+	color:#545454;
+}
+
+.FA_overall_container_title_nav.dark .FA_featured_articles .FA_article p{
+text-align:justify;
+	color:#000000;
+}
+
+.FA_overall_container_title_nav.dark .FA_featured_articles .FA_article p a{
+	color:#000000 !important;
+}
+
+.FA_overall_container_title_nav.dark .FA_featured_articles .FA_article a.FA_read_more{
+	color:#ffffff;
+	background:#3b3b3b;
+}
+
+/*
+	Bottom navigation
+*/
+.FA_overall_container_title_nav.dark ul.FA_navigation {
+	background:#0B0A72;	
+}
+		.FA_overall_container_title_nav.dark ul.FA_navigation li a{
+			color:#ccc;
+			border-bottom:1px #666666 solid;
+			background: #0B0A72; /* Show a solid color for older browsers */
+			font-size:16px;
+			font-weight:bold;
+			text-align:right;
+	
+		}	
+.FA_overall_container_title_nav.dark .FA_navigation a.active{
+	background:#000;
+	
+	background: #e5e5e5; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#f9f9f9, #e5e5e5);
+	background: -o-linear-gradient(#f9f9f9, #e5e5e5);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9f9f9), to(#e5e5e5)); /* Older webkit syntax */
+	background: -webkit-linear-gradient(#f9f9f9, #e5e5e5);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e5e5e5'); /* for IE */
+	color: #373737;
+	}
+
+.FA_overall_container_title_nav.dark .FA_navigation a:hover{
+	color: #373737;
+}

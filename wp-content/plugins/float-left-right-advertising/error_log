@@ -1,0 +1,1 @@
+[04-Sep-2015 23:31:32 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/alkelmaa/public_html/wp-content/plugins/float-left-right-advertising/float_left_right_ads.php on line 284

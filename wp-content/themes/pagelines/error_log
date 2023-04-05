@@ -1,0 +1,2 @@
+[04-Nov-2015 02:43:43 America/Chicago] PHP Fatal error:  Call to undefined function setup_pagelines_template() in /home/alkelmaa/public_html/wp-content/themes/pagelines/index.php on line 50
+[04-Nov-2015 03:32:02 America/Chicago] PHP Fatal error:  Call to undefined function setup_pagelines_template() in /home/alkelmaa/public_html/wp-content/themes/pagelines/index.php on line 50

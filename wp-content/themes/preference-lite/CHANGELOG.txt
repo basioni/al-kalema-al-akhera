@@ -1,0 +1,124 @@
+Keep a change log to describe all the changes made to program source files. The purpose of this is so that people investigating bugs in the future will know about the changes that might have introduced the bug. Often a new bug can be found by looking at what was recently changed. More importantly, change logs can help you eliminate conceptual inconsistencies between different parts of a program, by giving you a history of how the conflicting concepts arose and who they came from.
+
+
+Copyright 2012-2013 StyledThemes.com
+
+	
+Changelog Legend:
+----
+
+[+] = Added
+[*] = Changed
+[^] = Moved
+[=] = No Changes
+[x] = Deleted
+[!] = Bugs
+
+----
+
+(August 20, 2013) - Adjustments - Version 1.7.2
+[+] - Added classes to article meta details for easier disabling
+[+] - Changed the copyright to allow user own name or title via theme options
+[+] - Added the ability to hide page titles
+[*] - Updated the language .pot file
+
+----
+
+(July 25, 2013) - Adjustments - Version 1.7.1
+[+] - Added an installable child theme to the theme package in a folder called child-theme
+[*] - Updated the Readme.txt file
+
+----
+
+(June 12, 2013) - Bug fix - Version 1.7.0
+[*] - Fixed a missing style on the mobile menu colour options for the submenu background.
+
+----
+
+(June 8, 2013) - Bug fix and Added Improvements - Version 1.6.9
+[*] - Redesigned and coded the main menu and the mobile styling due to inconsistencies. Changed menu.css, header.css, functions.php, theme-customizer.php
+[*] - Updated the language .pot file for the menu redesign.
+
+----
+
+(June 6, 2013) - Bug Fix Version 1.6.8
+[!] - Fixed a missing end curly bracket on a group of css styled in the <head> area. This updates the functions.php
+[!] - Fixed a missing end </div> on a container in the footer.php file.
+
+----
+
+(May 9, 2013) - Bug Fix Version 1.6.7
+[!] - Fixed a stuck menu issue when changing menus with menu locations and one didn't change. The header.php and footer.php files were changed.
+
+----
+
+(May 9, 2013) - Version 1.6.6
+[+] - Fixed a missing part on a previous update where the users own logo wasn't centering. The header.php file is updated.
+
+----
+
+(April 16, 2013) - Version 1.6.5
+[+] - Added a missing Footer menu location. Changed the style.css, menu.css, and the functions.php files
+[*] - Updated the .pot language file to reflect the above changes.
+
+----
+
+(April 2, 2013) - Bug fix - Version 1.6.4
+[!] - Fixed the menu by preventing the mobile styling from kicking in too soon. Files changed were the bootstrap.css, style.css, and menu.css
+
+----
+
+(March 19, 2013) - Bug fix - Version 1.6.3
+[!] - Fixed a problem of images not centering with the class aligncenter and the showcase centering. Style.css updated.
+
+----
+
+(Feburary 27, 2013) - Bug fix and improvements - Version 1.6.2
+[*] - Changed the functions.php file for thumbnail sizes - removed conflicting thumbnail dimensions
+[+] - Added link colour and hover colour settings in the customizer for the sidebar right column: theme-customizer.php and functions.php changed.
+[*] - Updated the language .pot file with new strings
+
+----
+
+(Feburary 27, 2013) - Bug fix and improvements - Version 1.6.1
+[!] - Fixed a naming issue with the functions.php file that affected the displaying of bottom and footer widgets.
+[!] - Fixed the front-page.php template file because it was loading the blog right sidebar instead of the page right sidebar
+
+----
+
+(Feburary 21, 2013) - Bug fix and improvements - Version 1.6
+[!] - Fixed language translation ability for the date in content.php, content-status.php, content-single.php, and functions.php
+[+] - Added proper language text domain to the content-single.php page which was incorrect and not translating
+[+] - Added styling for the active main menu colour and for the linked Site Title colour on hover. Modified header.php and functions.php
+[+] - Added colour custom setting to the customizer.php for image bottom borders
+[*] - Rebuilt the language .pot and .mo files with changes to the date translation strings and for the added image border style option
+[*] - Changed from Microsoft Yi Baiti font to Oxygen Light for License usage with Google Fonts
+
+----
+
+(Feburary 7, 2013) - Bug fix and improvements - Version 1.4
+[!] - Fixed an error with post thumbnails in the functions.php was incorrectly coded
+[*] - Changed the copyright date to being dynamic and the copyright name to be whatever the site title is
+
+----
+
+(Feburary 5, 2013) - Bug fix and improvements - Version 1.3
+[!] - Fixed the comment form coding by rebuilding it in the functions.php file which was breaking the page layout
+
+----
+
+(Feburary 3, 2013) - Bug fix and improvements - Version 1.2
+[!] - Fixed the page top bar theme option border colour which was inheriting another setting
+[+] - Added the image.php file which displays attachments. Brought over from the Pro version of Preference.
+[*] - Updated the CHANGELOG which did not reflect changes from v1.1
+
+----
+
+(February 2, 2013) - Core File Improvements - Version 1.1
+[*] - Updated the file header information with license and copyright
+[*] - Renamed the theme from Preference to Preference Lite
+
+----
+
+(November 20, 2012) Version 1.0 Styled Themes <www.styledthemes.com>
+Initial Release

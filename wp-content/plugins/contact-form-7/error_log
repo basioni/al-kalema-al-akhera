@@ -1,0 +1,2 @@
+[04-Mar-2014 12:27:34 America/Chicago] PHP Fatal error:  Call to undefined function plugin_basename() in /home/alkelmaa/public_html/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 35
+[02-Oct-2015 07:42:56 America/Chicago] PHP Fatal error:  Call to undefined function plugin_basename() in /home/alkelmaa/public_html/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 35

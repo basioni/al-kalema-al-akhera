@@ -1,0 +1,1 @@
+[03-Oct-2014 21:14:53 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home/alkelmaa/public_html/wp-content/plugins/wp-ui/admin/wpUI-options.php on line 5

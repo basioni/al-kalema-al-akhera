@@ -1,0 +1,1 @@
+[04-Sep-2015 23:31:32 America/Chicago] PHP Fatal error:  Call to undefined function current_user_can() in /home/alkelmaa/public_html/wp-content/plugins/wp-polls/polls-add.php on line 21

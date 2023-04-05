@@ -1,0 +1,179 @@
+# Translation of Stable (latest release) in Arabic
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-08-18 11:50:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#: duplicate-post-admin.php:115
+msgid "Clone this item"
+msgstr "استنساخ هذا العنصر"
+
+#: duplicate-post-admin.php:116
+msgid "Clone"
+msgstr "استنساخ"
+
+#: duplicate-post-admin.php:118 duplicate-post-admin.php:136
+#: duplicate-post-common.php:66 duplicate-post-common.php:70
+#: duplicate-post-common.php:103
+msgid "Copy to a new draft"
+msgstr "انسخ إلى مسودة جديدة"
+
+#: duplicate-post-admin.php:119
+msgid "New Draft"
+msgstr "مسودة جديدة"
+
+#: duplicate-post-admin.php:163
+msgid "No post to duplicate has been supplied!"
+msgstr "لم يتم تزويد أي مقالة للتكرار!"
+
+#: duplicate-post-admin.php:185
+msgid "Copy creation failed, could not find original:"
+msgstr "فشل إنشاء نسخة، لا يمكن إيجاد الأصلي:"
+
+#: duplicate-post-admin.php:349 duplicate-post-options.php:69
+msgid "Donate"
+msgstr "التبرع"
+
+#: duplicate-post-admin.php:350 duplicate-post-options.php:68
+msgid "Translate"
+msgstr "ترجم"
+
+#: duplicate-post-options.php:28 duplicate-post-options.php:62
+msgid "Duplicate Post Options"
+msgstr "خيارات Duplicate Post"
+
+#. #-#-#-#-#  tmp-duplicate-post.pot (Duplicate Post 2.6)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: duplicate-post-options.php:28
+msgid "Duplicate Post"
+msgstr "Duplicate Post"
+
+#: duplicate-post-options.php:67
+msgid "Visit plugin site"
+msgstr "زيارة موقع الإضافة"
+
+#: duplicate-post-options.php:84
+msgid "Copy post/page date also"
+msgstr "انسخ تاريخ المقالة/الصفحة أيضا"
+
+#: duplicate-post-options.php:87
+msgid "Normally, the new copy has its publication date set to current time: check the box to copy the original post/page date"
+msgstr "عادة، النسخة الجديدة لها تاريخ نشرها محدد في الوقت الحالي: ضع العلامة في مربع الاختيار لنسخ تاريخ المقالة/الصفحة الأصلي"
+
+#: duplicate-post-options.php:92
+msgid "Copy post/page status"
+msgstr "انسخ حالة المقالة/الصفحة"
+
+#: duplicate-post-options.php:96
+msgid "Copy the original post status (draft, published, pending) when cloning from the post list."
+msgstr "انسخ حالة المقالة الأصلية (مسودة، منشور، بانتظار المراجعة) عند الاستنساخ من قائمة المقالات."
+
+#: duplicate-post-options.php:101
+msgid "Copy excerpt"
+msgstr "انسخ المقتطف"
+
+#: duplicate-post-options.php:105
+msgid "Copy the excerpt from the original post/page"
+msgstr "انسخ المقتطف من المقالة/الصفحة الأصلية"
+
+#: duplicate-post-options.php:110
+msgid "Copy attachments"
+msgstr "انسخ المرفقات"
+
+#: duplicate-post-options.php:114
+msgid "Copy the attachments from the original post/page"
+msgstr "انسخ المرفقات من المقالة/الصفحة الأصلية "
+
+#: duplicate-post-options.php:119
+msgid "Copy children"
+msgstr "انسخ الإبن"
+
+#: duplicate-post-options.php:123
+msgid "Copy the children from the original post/page"
+msgstr "انسخ الإبن من المقالة/الصفحة الأصلية"
+
+#: duplicate-post-options.php:128
+msgid "Do not copy these fields"
+msgstr "لا تنسخ هذه الحقول"
+
+#: duplicate-post-options.php:132
+msgid "Comma-separated list of meta fields that must not be copied"
+msgstr "قائمة مفصولة بفاصلة لحقول البينات الوصفية التي لا يجب نسخها"
+
+#: duplicate-post-options.php:137
+msgid "Do not copy these taxonomies"
+msgstr "لا تنسخ هذه الفئات"
+
+#: duplicate-post-options.php:151
+msgid "Select the taxonomies you don't want to be copied"
+msgstr "حدد الفئات التي لا تريد أن تنسخ"
+
+#: duplicate-post-options.php:156
+msgid "Title prefix"
+msgstr "بادئة العنوان"
+
+#: duplicate-post-options.php:160
+msgid "Prefix to be added before the original title, e.g. \"Copy of\" (blank for no prefix)"
+msgstr "البادئة التي يمكن أن تضاف قبل العنوان، مثلا، \"نسخة من\" (أتركها فارغة ليكون بدون بادئة)"
+
+#: duplicate-post-options.php:165
+msgid "Title suffix"
+msgstr "لاحقة العنوان"
+
+#: duplicate-post-options.php:169
+msgid "Suffix to be added after the original title, e.g. \"(dup)\" (blank for no suffix)"
+msgstr "اللاحقة التي يمكن أن تضاف بعد العنوان، مثلا، \"منسوخ\" (أتركها فارغة ليكون بدون لاحقة) "
+
+#: duplicate-post-options.php:174
+msgid "Roles allowed to copy"
+msgstr "الأدوار المسموح نسخها"
+
+#: duplicate-post-options.php:187
+msgid "Warning: users will be able to copy all posts, even those of other users"
+msgstr "تحذير: سوف يكون الأعضاء قادرين على نسخ جميع المقالات، حتى تلك التي يملكها أعضاء آخرين"
+
+#: duplicate-post-options.php:192
+msgid "Show links in"
+msgstr "عرض الروابط في"
+
+#: duplicate-post-options.php:196
+msgid "Post list"
+msgstr "قائمة المقالة"
+
+#: duplicate-post-options.php:199
+msgid "Edit screen"
+msgstr "تعديل الشاشة"
+
+#: duplicate-post-options.php:202
+msgid "Admin bar"
+msgstr "شريط المدير"
+
+#: duplicate-post-options.php:208
+msgid "Save Changes"
+msgstr "حفظ التغييرات"
+
+#: duplicate-post.php:44
+msgid "Settings"
+msgstr "الإعدادات"
+
+#. Plugin URI of the plugin/theme
+msgid "http://lopo.it/duplicate-post-plugin/"
+msgstr "http://lopo.it/duplicate-post-plugin/"
+
+#. Description of the plugin/theme
+msgid "Clone posts and pages."
+msgstr "استنساخ المقالات والصفحات."
+
+#. Author of the plugin/theme
+msgid "Enrico Battocchi"
+msgstr "Enrico Battocchi"
+
+#. Author URI of the plugin/theme
+msgid "http://lopo.it"
+msgstr "http://lopo.it"

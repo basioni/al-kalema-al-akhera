@@ -1,0 +1,234 @@
+
+/* 37 Menus
+-------------------------------------------------------------- */
+
+/* Main Menu Toggle */
+.menu-toggle {
+padding: 3px 30px;
+	margin:8px 15px 0;
+	color: #ffffff;
+	font-size:12px;
+	-webkit-border-radius: 22px 0 22px 0;
+	-moz-border-radius: 22px 0 22px 0;
+	border-radius: 22px 0 22px 0;
+	line-height: 1.428571429;
+	font-weight: normal;
+	color: #fff;
+	background-color: #e6e6e6;
+	background-repeat: repeat-x;
+	  background-color: #618b9b;
+	  background-image: -moz-linear-gradient(top, #8db9c9, #618b9b);
+	  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#618b9b), to(#8db9c9));
+	  background-image: -webkit-linear-gradient(top, #8db9c9, #618b9b);
+	  background-image: -o-linear-gradient(top, #8db9c9, #618b9b);
+	  background-image: linear-gradient(to bottom, #8db9c9, #618b9b);
+	box-shadow: 0 1px 2px rgba(64, 64, 64, 0.1);
+}
+.menu-toggle {
+    cursor: default;
+}
+.menu-toggle:hover {
+	color: #fff;
+	  background-color: #618b9b;
+	  background-image: -moz-linear-gradient(top, #8db9c9, #618b9b);
+	  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#8db9c9), to(#618b9b));
+	  background-image: -webkit-linear-gradient(top, #618b9b, #8db9c9);
+	  background-image: -o-linear-gradient(top, #618b9b, #8db9c9);
+	  background-image: linear-gradient(to bottom, #618b9b, #8db9c9);
+	cursor: pointer;
+}
+.menu-toggle:active,
+.menu-toggle.toggled-on {
+	color: #fff;
+	  background-color: #618b9b;
+	  background-image: -moz-linear-gradient(top, #8db9c9, #618b9b);
+	  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#8db9c9), to(#618b9b));
+	  background-image: -webkit-linear-gradient(top, #618b9b, #8db9c9);
+	  background-image: -o-linear-gradient(top, #618b9b, #8db9c9);
+	  background-image: linear-gradient(to bottom, #618b9b, #8db9c9);
+	border: none;
+}
+
+
+/* Navigation Menu */
+.main-navigation {
+	margin-top: 0;
+	text-align: center;
+}
+.main-navigation li {
+	background-image:none;
+	margin-top: 0;
+	padding-left:0;
+}
+.main-navigation a {
+	color: #fff;
+}
+.main-navigation ul.nav-menu,
+.main-navigation div.nav-menu > ul {
+	display: none;
+}
+.main-navigation ul.nav-menu.toggled-on,
+.menu-toggle {
+	display: inline-block;
+}
+
+/* Minimum width of 600 pixels. */
+@media screen and (min-width: 600px) {
+	.main-navigation ul.nav-menu,
+	.main-navigation div.nav-menu > ul {
+		display: inline-block !important;
+		text-align: center;
+		width: 100%;
+	}
+	.main-navigation ul {
+		margin: 0;
+		text-indent: 0;
+	}
+	.main-navigation li a,
+	.main-navigation li {
+		display: inline-block;
+		text-decoration: none;
+	}
+	.main-navigation li a {
+		border-bottom: 0;
+		padding:10px 13px 9px;
+		white-space: nowrap;
+	}
+	.main-navigation li a:hover {
+		color: #bd7d78;
+	}
+	.main-navigation li {
+		position: relative;
+	}
+	.main-navigation ul.sub-menu li {
+		margin-right:0;
+		text-align:left;
+	}
+	.main-navigation li ul {
+		display: none;
+		margin: -6px;
+		padding:0 5px 12px 5px;
+		position: absolute;
+		top: 100%;
+		left:0;  /* lets align the 2nd level a little to the left */
+		z-index: 9999; /* lets make the submenu float above sliders */
+	}
+	.main-navigation li ul ul {
+		top: 0;
+		left: 90%; /* lets have the 3rd level overlap the 2nd */
+	}
+	.main-navigation ul li:hover > ul {
+		display: block;
+		padding:5px 5px 12px 5px;
+		background: #78a5b6; 
+		border-bottom:4px solid #595a67;
+		border-radius:12px;
+	}
+	.main-navigation li ul li a {
+		display: block;
+		font-size: 12px;
+		line-height: 12px;
+		line-height: 1.7;
+		padding: 4px 16px;
+		width: 150px;
+		white-space: normal;
+	}
+	.main-navigation li ul li a:hover {
+		background-color: #98b9c6;
+		color: #f8d9b0;
+		-webkit-border-radius:6px;
+				border-radius:6px;
+	}
+	
+	/* make the main level menu items active with a colour */
+	.main-navigation .current-menu-item > a,
+	.main-navigation .current-menu-ancestor > a,
+	.main-navigation .current_page_item > a,
+	.main-navigation .current_page_ancestor > a {
+		color: #f8d9b0;
+	}
+	/* make the submenus active with a background */
+	.main-navigation ul.sub-menu li.current-menu-item > a,
+	.main-navigation ul.sub-menu li.current-menu-ancestor > a,
+	.main-navigation ul.sub-menu li.current_page_item > a,
+	.main-navigation ul.sub-menu li.current_page_ancestor > a {
+		color: #f8d9b0;
+		background: #98b9c6;
+		-webkit-border-radius:6px;
+				border-radius:6px;
+	}
+	
+	.menu-toggle {
+		display: none;
+	}
+}	
+@media (min-width: 320px) and (max-width: 599px) {
+	.main-navigation {
+		margin-bottom: 20px;
+	}
+	.main-navigation li {
+		margin-top:12px;
+		font-size: 12px;
+		line-height: 1;
+	}
+	.main-navigation ul {
+		margin:0;
+		padding:10px 20px;
+		list-style:none;
+		background-color: #78a5b6;
+		text-align: left;
+		border-bottom:4px solid #595a67;
+		border-radius:12px;
+		position: relative;
+		z-index:9999;
+	}
+	.main-navigation ul.sub-menu {
+		border:none;
+		margin:0;
+		padding-top:0;
+		padding-bottom:0;
+	}
+	.main-navigation ul.sub-menu li {
+		width: 100%;
+		font-size: 12px;
+		font-style: italic;
+	}
+	.main-navigation li ul li a {
+		width: 100%;
+	}
+	.main-navigation li ul li a:hover {
+		background: none!important;
+	}
+	/* make the submenus active with a background */
+	.main-navigation ul.sub-menu li.current-menu-item > a,
+	.main-navigation ul.sub-menu li.current-menu-ancestor > a,
+	.main-navigation ul.sub-menu li.current_page_item > a,
+	.main-navigation ul.sub-menu li.current_page_ancestor > a {
+		color: #f8d9b0;
+		background: none!important;
+	}
+}
+
+
+
+/*
+ * Footer Menu 
+ */
+#st-footer-menu.menu {
+	margin:0;
+}
+#st-footer-menu li {
+	display:inline;
+	margin:0 4px 0 0;
+	
+ }
+#st-footer-menu li:before { 
+	content:"\00B7";
+	padding-right:7px;
+}
+#st-footer-menu li:first-child:before {
+	content:"";
+}
+#st-footer-menu li a:hover {
+	text-decoration:underline;
+}

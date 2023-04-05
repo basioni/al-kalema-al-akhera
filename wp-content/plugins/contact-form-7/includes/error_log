@@ -1,0 +1,4 @@
+[06-Mar-2015 14:24:21 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/alkelmaa/public_html/wp-content/plugins/contact-form-7/includes/controller.php on line 3
+[02-Oct-2015 07:42:52 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/alkelmaa/public_html/wp-content/plugins/contact-form-7/includes/controller.php on line 3
+[05-Mar-2016 03:54:12 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/alkelmaa/public_html/wp-content/plugins/contact-form-7/includes/controller.php on line 3
+[20-Aug-2016 20:25:32 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/alkelmaa/public_html/wp-content/plugins/contact-form-7/includes/controller.php on line 3
